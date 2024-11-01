@@ -1,0 +1,7 @@
+[INFO] Some logs
+[INFO] Some logs
+[INFO] Some logs
+[INFO] Some logs
+[INFO] Some logs
+[INFO] Some logs
+[ERROR] Some error
