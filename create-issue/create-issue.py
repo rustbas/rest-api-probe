@@ -22,9 +22,6 @@ with open(LOGFILE, "r") as f:
 
 today = date.today()
 
-print(FULL_URL)
-# print(GH_TOKEN)
-
 headers = {
         "Accept": "application/vnd.github+json",
         "Authorization": f"Bearer {GH_TOKEN}", 
@@ -37,6 +34,3 @@ message = {
 }
 
 response = requests.post(FULL_URL, json=message, headers=headers)
-
-# print(response.status_code)
-print(response.json())
